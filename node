@@ -1,3 +1,0 @@
-npm init -y
-
-npm install express multer mysql2 cors uuid
