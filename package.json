@@ -1,20 +1,31 @@
 {
-  "name": "secure-file-system",
+  "name": "file-encryption-system",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node index.js",
+    "generate-keys": "node scripts/generateKeys.js",
+    "test-crypto": "node scripts/testCrypto.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raj-Shridhar/file-encryption-system.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Raj-Shridhar/file-encryption-system/issues"
+  },
+  "homepage": "https://github.com/Raj-Shridhar/file-encryption-system#readme",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "multer": "^2.1.1",
-    "mysql2": "^3.19.1",
-    "uuid": "^13.0.0"
+    "nodemon": "^3.1.14"
   }
 }
