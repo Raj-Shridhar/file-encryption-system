@@ -1,11 +1,3 @@
-/**
- * generateKeys.js
- * Generates RSA-2048 key pairs for User A and User B
- * and saves them as PEM files in the /keys directory.
- *
- * Run once: node scripts/generateKeys.js
- */
-
 const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');

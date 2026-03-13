@@ -1,8 +1,3 @@
-/**
- * users.js — GET /api/users
- * Returns the list of users and their RSA public keys.
- */
-
 const express = require('express');
 const path = require('path');
 const fs = require('fs');

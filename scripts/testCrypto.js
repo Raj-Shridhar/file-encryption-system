@@ -1,8 +1,3 @@
-/**
- * testCrypto.js — Verifies the encrypt/decrypt roundtrip.
- * Run: node scripts/testCrypto.js
- */
-
 const path = require('path');
 const fs = require('fs');
 const crypto = require('crypto');

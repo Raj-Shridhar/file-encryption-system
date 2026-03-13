@@ -1,9 +1,3 @@
-/**
- * decrypt.js — POST /api/decrypt
- * Accepts: multipart/form-data { encFile: <.enc file>, user: "userA"|"userB" }
- * Returns: Decrypted PDF as a download
- */
-
 const express = require('express');
 const multer = require('multer');
 const path = require('path');

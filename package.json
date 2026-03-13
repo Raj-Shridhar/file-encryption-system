@@ -2,10 +2,10 @@
   "name": "file-encryption-system",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "node index.js",
+    "start": "nodemon server/index.js",
+    "dev": "node server/index.js",
     "generate-keys": "node scripts/generateKeys.js",
     "test-crypto": "node scripts/testCrypto.js",
     "test": "echo \"Error: no test specified\" && exit 1"
